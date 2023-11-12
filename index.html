@@ -15,110 +15,108 @@
     <div id="app">
         <nav class="site-nav flex">
             <a class="logo link" href="/">
-                {{ siteLogo }}
+                <img src="./img/logocha.png" alt=""><img src="./img/logo.png" alt=""> 
             </a>
             <ul class="nav-list flex">
                 <li class="nav-link">
-                    <a class="link" href="/">Room</a>
+                    <a class="link" href="/">Home</a>
                 </li>
                 <li class="nav-link">
-                    <a class="link" href="/">Reservation</a>
+                    <a class="link" href="/">Features</a>
                 </li>
                 <li class="nav-link">
-                    <a class="link" href="/">Contacts</a>
+                    <a class="link" href="/">Community</a>
+                </li>
+                <li class="nav-link">
+                    <a class="link" href="/">Blog</a>
+                </li>
+                <li class="nav-link">
+                    <a class="link" href="/">Pricing</a>
                 </li>
             </ul>
-            <button class="start btn">Get started</button>
+            <button class="start btn">Register Now -></button>
         </nav>
+        <div class="hero-color">
         <section class="hero flex">
             <div class="hero-content">
-                <h2 class="hero-title">Nature, Warmth, and Beauty in One Space</h2>
+                <h2 class="hero-title">Lessons and insights <br><span id="title1"> from 8 years </span></h2>
 
-                <p class="hero-subtitle">One place to release all the stress, bring back happines, and get back to nature. We provide the best room and nature
-                for you. Come visit us anytime you want.</p>
-                <button class="start btn">Reservation</button>
+                <p class="hero-subtitle">Where to grow your business as a photographer: site or social media?</p>
+                <button class="start btn">Register</button>
             </div>
             <div class="hero-img">
                 <div class="img1">
-                    <img src="./img/meritt-thomas-u-Hb93V6IWI-unsplash 1.png" alt="">
-                </div>
-                <div class="img2">
-                    <img src="./img/meritt-thomas-u-Hb93V6IWI-unsplash 2.png" alt="">
-                </div>
-                <div class="img3">
-                    <img src="./img/meritt-thomas-u-Hb93V6IWI-unsplash 3.png" alt="">
+                    <img src="./img/img1.png" alt="">
                 </div>
             </div>
         </section>
+        </div>
 
         <section class="page2 flex">
-            <div class="page2__img">
-                <img src="./img/uy.png" alt="home">
-            </div>
             <div class="page2__context">
                 <h2 class="h2title">{{page2_title}}</h2>
                 <p class="paragraps">{{page2_paragraph1}}</p>
-                <p class="paragraps">{{page2_paragraph2}}</p>
-                <button class="btn">Learn more</button>
             </div>
         </section>
+        <div class="logos flex">
+            <div class="client">
+                <img src="./img/Logo1.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./img/Logo2.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./img/Logo3.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./img/Logo4.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./img/Logo5.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./img/Logo6.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./img/Logo7.png" alt="">
+            </div>
+        </div>
 
         <section class="page3">
-            <div class="flex">
-                <div>
                     <div class="page3_context1">
-                        <h2 class="h2title">{{page3_title1}}</h2>
+                        <h2 class="h2title">Manage your entire community <br> in a single system</h2>
                         <p class="paragraps">{{page3_paragraph1}}</p>
+                    </div> 
+                    <div class=" members_main flex">
+                        <div class="members">
+                            <img src="./img/Icon1.png" alt="">
+                            <h3 class="member_h3">Membership <br> Organisations </h3>
+                            <p>Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                        <div class="members">
+                            <img src="./img/Icon2.png" alt="">
+                            <h3 class="member_h3">National Associations</h3>
+                            <p>Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                        <div class="members">
+                            <img src="./img/Icon3.png" alt="">
+                            <h3 class="member_h3">Clubs And Groups</h3>
+                            <p>Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
                     </div>
-                </div>
-                <div class="page3_img">
-                    <img src="./img/qadah.png" alt="qadah">
-                </div>
-            </div>
-
-            <div class="flex">
-                <div class="page3_img">
-                    <img src="./img/ovqat.png" alt="qadah">
-                </div>
-                <div class="page3_context1">
-                    <h2 class="h2title">{{page3_title2}}</h2>
-                    <p class="paragraps">{{page3_paragraph2}}</p>
-                </div>
-            </div>
         </section>
 
-        <div class="page4_topic">
-            <h2 class="h2title">{{page4_main_title}}</h2>
-            <p class="paragraps">{{page4_main_p}}</p>
-            <button class="btn">Explore more</button>
-        </div>
-        <div class="page2">
-            <div class="page4 flex">
-                <div class="page4_1 images">
-                    <img src="./img/room1.png" alt="room1">
-                    <h3 class="h3title">{{single_room}}</h3>
-                    <p class="paragraps">Best for a brave lone wolf who need comfort <br> and quiet quality time, but you still have a  <br>chance to meet others.</p>
-                    <a href="#" class="paragraps">{{learn_more}}</a>
-                </div>
-
-                <div class="page4_2 images">
-                    <img src="./img/room2.png" alt="room3">
-                    <h3 class="h3title">{{double_room}}</h3>
-                    <p class="paragraps">Best for couple, seek happiness in intimacy <br> without worry of being disturbed. Feel the <br>whole world just for you two</p>
-                    <a href="#" class="paragraps">{{learn_more}}</a>
-                </div>
-                
-                <div class="page4_3 images">
-                    <img src="./img/room3.png" alt="room2">
-                    <h3 class="h3title">{{cootage}}</h3>
-                    <p class="paragraps">Best for family or group. One cootage can fit <br> up to 5 people. Made stronger bond with <br> your family or friends</p>
-                    <a href="#" class="paragraps">{{learn_more}}</a>
-                </div>
-
+        <section class="page4 flex">
+            <div class="page4_img">
+                <img src="./img/rasm3.png" alt="">
             </div>
-        </div>
+            <div class="page4_content">
+                <h2>The unseen of spending three years at Pixelgrade</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+            </div>
+        </section>
             <!-- QUESTIONS -->
-    <section class="question">
+    <!-- <section class="question">
         <div class="question__info w-half">
           <div class="box">
             <span>Start your journey!</span>
@@ -157,31 +155,18 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="paragraps page2 page4_topic">
-        <h2 class="h2title page5">Hear From Our Happy Customers</h2>
-        <img src="./img/person.png" alt="person">
-        <p class="paragr">“Great service, great food, great people. The scenery is also beautiful, you can do so much activity even with your famility. Worth every penny! you should come and see for your self.  5 out of 5! the waffle is great!”</p>
-        <h5>Kirana Dunham</h5>
-      </section>
+      </section> -->
     </div>
-
-    <section>
-            
-    </section>
     <script>
         const { createApp, ref } = Vue;
 
         createApp({
             setup(){
                 const siteLogo = ref('Cootels');
-                const page2_title = ref('Cozy and Down to Earth Cootage Hotel in Norway.')
-                const page2_paragraph1 = ref('Our Cootage Hotel is an intimate hideway concieved for dicerning travelers. It faces directly the unique and spectacular panorama of the Hallerbos Jungle.')
-                const page2_paragraph2 = ref('Cootels extends along a private, quiet, and beautiful nature. Stay away from crowd and enjoy the cozy and beauty with us.')
-                const page3_title1 = ref("Cabin Activities")
-                const page3_paragraph1 = ref("Don’t worry to get bored easily in our cabin. We have so many cabin activities for you to do it alone or with group. Maybe this is the best chance for you to make new friends or even a lover.")
-
-                const page3_title2 = ref("100% Organic Food")
+                const page2_title = ref('Our Clients')
+                const page2_paragraph1 = ref('We have been working with some Fortune 500+ clients')
+                const page3_paragraph1 = ref("Who is Nextcent suitable for?")
+                const page3_title2 = ref("Manage your entire community in a single system")
                 const page3_paragraph2 = ref("We served 100% organic, low process and delicious food. We allow our guest to have breakfast or dinner request.What ever made your taste buds happy.")
                 const page4_main_title = ref("Many Rooms to     Choose")
                 const page4_main_p = ref("There is a room for every needs. We have room for individuals until family size, we also have a cabin for more private experience")
@@ -196,8 +181,6 @@
                     siteLogo,
                     page2_title,
                     page2_paragraph1,
-                    page2_paragraph2,
-                    page3_title1,
                     page3_paragraph1,
                     page3_title2,
                     page3_paragraph2,

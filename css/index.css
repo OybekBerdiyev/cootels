@@ -20,9 +20,6 @@ a {
     font-family: "Montserrat", sans-serif;
   }
 
-#app {
-    padding: 0 15px;
-}
 
 .flex {
     display: flex;
@@ -40,6 +37,8 @@ a {
 .site-nav {
     padding: 10px 80px;
     margin-bottom: 0px;
+    background-color: #fff;
+    text-align: right;
 }
 
 .logo {
@@ -57,14 +56,24 @@ a {
     padding-left: 30px;
 }
 
-/* hero styles start */
+#title1 {
+    color:#4CAF4F;
+}
+
+.hero-color {
+    background-color: #F5F7FA;
+    width: 100%;
+}
 .hero {
-    padding: 120px 80px;
-    margin-top: 0px;
+    width: 100%;
+    padding: 0px 80px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #F5F7FA;
 }
 
 .hero-content {
-    width: 40%;
+    width: 60%;
 } 
 
 .hero-title {
@@ -92,7 +101,8 @@ a {
 
 .btn {
     padding: 16px 32px;
-    background-color: #0E1734;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
     color: #fff;
     font-size: 16px;
     border-radius: 5px;
@@ -104,12 +114,17 @@ a {
     align-items: center;
 }
 .page2 {
-    padding: 120px 80px;
+    padding: 27.84px 80px;
+    text-align: center;
+}
+
+.logos {
+    padding: 27.84px 80px;
+    text-align: center;
 }
 
 .page2__context {
-    width: 60%;
-    height: 366px;
+    width: 100%;
 }
 
 .h2title {
@@ -118,14 +133,11 @@ a {
     margin-bottom: 17px;
 }
 
+
 .paragraps {
     font-size: 18px;
     color: #848FAC;
     margin-bottom: 12px;
-}
-
-.page3_context1 {
-    width: 584px;
 }
 
 .page3_img img {
@@ -134,16 +146,24 @@ a {
 }
 
 .page3 {
-    padding: 120px 80px;
-}
-
-.page4_topic {
+    padding: 27.84px 80px;
     text-align: center;
 }
+.members {
+    padding: 80px 40px;    
+    margin: 80px 40px;   
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); 
+    border-radius:7px;
+}
+
 
 .h3title {
     font-size: 24px;
     margin-bottom: 12px;
+}
+
+.member_h3 {
+    padding-bottom: 15px;
 }
 
 .images img{
@@ -151,9 +171,6 @@ a {
     margin-bottom: 10px;
 }
 
-.page4 {
-    width: calc(100% / 3);
-}
 
 .question {
     display: flex;
@@ -223,8 +240,24 @@ a {
     padding: 0 36px 36px 36px;
   }
 
-.page4_topic img {
-    margin-bottom: 50px;
+.page4_content {
+    width: 600px;
+    font-size: 12.019px;
+    line-height: 14.69px;
+    padding-right: 20px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.page4_content h2 {
+    padding-bottom: 5.34px;
+}
+
+.page4_img {
+    margin-left: 200px;
+    width: 147.41px;
+    height: 109.84px;
+
 }
 
 .paragr {
